@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shine LED</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sec-one">
+        <nav class="navbar navbar-expand-lg bg-light" aria-label="Offcanvas navbar large">
+            <div class="container-fluid align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img class="w-101" src="img/shine_logo.png" alt="Bootstrap">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-light w-100" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header justify-content-end">
+                        <!-- <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5> -->
+                        <button type="button" class="btn-close btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BLog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Career</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="true">
+                                    Downloading Catalog
+                                </a>
+                                <ul class="dropdown-menu m-0">
+                                    <li><a class="dropdown-item" href="#">Shine Residential Products</a></li>
+                                    <li><a class="dropdown-item" href="#">Shine Display Wall</a></li>
+                                    <li><a class="dropdown-item" href="#">Shine Lighting Ideas</a></li>
+                                    <li><a class="dropdown-item" href="#">Shine Indoor & Outdoor Lighting</a></li>
+                                    <li><a class="dropdown-item" href="#">Shine Explsion & FlameProof</a></li>
+                                    <li><a class="dropdown-item" href="#">Shine LED Profiles</a></li>
+                                    <li><a class="dropdown-item" href="#">Shine Indusrial Catalog 2023</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item mt-2">
+                                <a class="text-reset me-3" href="#">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex mt-3 mt-lg-0" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="sec-two pb-85">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active bg-1" data-bs-interval="2000">
+                    <div class="overlay"></div>
+                    <div class="container d-flex justify-content-center align-items-center h-480">
+                        <div class="slider-text text-center">
+                            <h1 class="h1">Commercial</h1>
+                            <p class="p12">Sleek Lighting With Optimum Luminosity</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-2" data-bs-interval="2000">
+                    <div class="overlay"></div>
+                    <div class="container d-flex justify-content-center align-items-center h-480">
+                        <div class="slider-text text-center">
+                            <h1 class="h1">Industrial</h1>
+                            <p class="p12">Industry-built, Precision-focused Lighting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-3" data-bs-interval="2000">
+                    <div class="overlay"></div>
+                    <div class="container d-flex justify-content-center align-items-center h-480">
+                        <div class="slider-text text-center">
+                            <h1 class="h1">Residential</h1>
+                            <p class="p12">Built For Utter Efficiency & Productivity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-three ">
+        <div class="container-fluid">
+            <div class="hcart bg-light" id="scroll-1">
+                <div class="s3-text-part wd-50">
+                    <h1 class="h1">India's Leading Led Light Manufacturer</h1>
+                    <p class="p">At SHINE, we create sustainability with modern looks. The elegant lights are designed
+                        to provide
+                        a customer-driven solution with high-tech energy. As a leading LED light manufacturer in India,
+                        Shine has the most superior quality and a wide range to showcase. Being one of the best LED
+                        light manufacturers in India, it never compromises Customer services and their needs.</p>
+                    <div class="down-arrow-part">
+                        <a href="#scroll-2">
+                            <i class="fa-solid fa-arrow-down-long" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hcart-2 bg-light" id="scroll-2">
+                <div class="s3-text-part">
+                    <p class="p2">Enhance the aesthetics of your Lighting by adding a mix of antiquity and minimalism.
+                    </p>
+                    <div class="down-arrow-part">
+                        <a href="#scroll-3">
+                            <i class="fa-solid fa-arrow-down-long" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hcart-3 bg-light d-flex align-items-center d-wrap" id="scroll-3">
+                <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+                    <div class="s3-text-part">
+                        <h3 class="h3">LIGHT BEYOND ILLUMINATION</h3>
+                        <p class="p3">Our products empower customers and communities to consume less energy and conserve
+                            resources. We adhere to our commitment to the environment by producing lighting that saves
+                            energy. With an eco-friendly and energy-efficient scope, experience the utmost radiance
+                            tailor-made to fit your needs.</p>
+                        <div class="down-arrow-part">
+                            <a href="#scroll-4">
+                                <i class="fa-solid fa-arrow-down-long" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 d-flex justify-content-center">
+                    <div class="s3-img-1">
+                        <img class="img-fluid" src="img/hcard-bg3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-four ps2-50">
+        <div class="container-fluid">
+            <div class="scroll-part-1 scroll-1" id="scroll-4">
+                <div class="s4-text-area p-50 wd1-50 position-relative h-100">
+                    <h3 class="h3">OUR FOCUS AREAS</h3>
+                    <p class="p4 position-absolute">Providing high-quality products to our customers is a priority, so
+                        we offer a range of options
+                        and believe in working hard to cater their needs. Our range of LED lighting collection is
+                        smartly designed to deliver solutions not only in residential & outdoor areas but also in
+                        industrial-grade flameproof and commercial sectors.</p>
+                </div>
+            </div>
+            <div class="scroll-part-2 scroll d-flex p-50 d-wrap">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-8">
+                    <div class="s4-text-area-2 ">
+                        <h4 class="h4">01</h4>
+                        <h2 class="h2">Residential Spaces</h2>
+                        <ul>
+                            <li>Redefining Luxury Lighting</li>
+                            <li>Luminaires that embrace your living space</li>
+                            <li>Radiance that uplifts your abode</li>
+                        </ul>
+                        <p class="p5">Add a touch of bespoke luxury to your homes. Our range of contemporary and modern
+                            designs is
+                            curated by our team of professionals who ensure the interior elements of your house stand
+                            out and give maximum coverage while you save the most. Transform your living space with our
+                            brilliantly curated residential lighting, with an amalgamation of design & utility.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                    <div class="scroll-2-img">
+                        <img class="img-fluid" src="img/scroll-img-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-part-2 scroll d-flex p-50 d-wrap">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-8">
+                    <div class="s4-text-area-2 ">
+                        <h4 class="h4">02</h4>
+                        <h2 class="h2">Commercial Spaces</h2>
+                        <ul>
+                            <li>Innovation in design. Efficiency in performance.</li>
+                            <li>Carefully designed for optimum luminosity</li>
+                            <li>Effervescent & Efficient Workplace Lighting Solutions</li>
+                        </ul>
+                        <p class="p5">Workplaces often undermine the importance of lighting. From our range of
+                            commercial options, we take care of Industry-curated illumination and provide lighting that
+                            creates peak luminosity. Shine's commercial lights are not only sturdy but intended for
+                            180-degree rotation despite the tough climatic conditions of your workplaces.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                    <div class="scroll-2-img">
+                        <img class="img-fluid" src="img/scroll-img-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-part-2 scroll d-flex p-50 d-wrap">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-8">
+                    <div class="s4-text-area-2 ">
+                        <h4 class="h4">03</h4>
+                        <h2 class="h2">Outdoor Lighting</h2>
+                        <ul>
+                            <li>Combining aesthetic lighting with efficiency</li>
+                            <li>Luminaire that transforms your outdoors</li>
+                            <li>Radiance that complements your home exteriors.</li>
+                        </ul>
+                        <p class="p5">For lighting that enhances the look of your space. Dive into these LED Lighting
+                            options for optimum radiance specifically designed to keep in mind safety and power-saving.
+                            ShinePlus puts forward a variety of outdoor lighting collections that complement the
+                            architectural design of your spaces.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                    <div class="scroll-2-img">
+                        <img class="img-fluid" src="img/scroll-img-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-part-2 scroll d-flex p-50 d-wrap">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-8">
+                    <div class="s4-text-area-2 ">
+                        <h4 class="h4">04</h4>
+                        <h2 class="h2">Sensors</h2>
+                        <ul>
+                            <li>Industry-curated sturdy lighting solutions</li>
+                            <li>Luminosity combined with intelligence</li>
+                            <li>High Sensibility. Maximal Brightness</li>
+                        </ul>
+                        <p class="p5">By combining the luminosity with intelligence, Shine introduces motion sensor
+                            lights designed to outclass the conventional lighting fixtures. Relish your space in
+                            smarter, futuristic lighting solutions that contribute to a more secure society.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                    <div class="scroll-2-img">
+                        <img class="img-fluid" src="img/scroll-img-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-part-2 scroll d-flex p-50 d-wrap">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-8">
+                    <div class="s4-text-area-2 ">
+                        <h4 class="h4">05</h4>
+                        <h2 class="h2">Explosion Proof & Flameproof</h2>
+                        <ul>
+                            <li>Industry-curated sturdy lighting solutions</li>
+                            <li>Delivering reliable & weatherproof lighting</li>
+                            <li>Efficient & Reliable</li>
+                        </ul>
+                        <p class="p5">Curating industry-grade lighting solutions tailor-made to your needs. Designed
+                            with a focus on enhancing your industry, we deliver energy-efficient lighting along with a
+                            guarantee of durability.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                    <div class="scroll-2-img">
+                        <img class="img-fluid" src="img/scroll-img-5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-five bg-light">
+        <div class="container-fluid ">
+            <div class="s5-h2 text-center">
+                <h2 class="h2">Our Blogs</h2>
+            </div>
+            <div class="s5-card-part row justify-content-around">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div class="s5-card-1">
+                        <a href="#">
+                            <h3 class="h3">Lighting Solutions For Home</h3>
+                            <div class="s5-card-footer d-flex justify-content-between">
+                                <p class="p6">June 4,2021</p>
+                                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div class="s5-card-1">
+                        <a href="#">
+                            <h3 class="h3">Energy-Efficient Industrial Lighting Solutions</h3>
+                            <div class="s5-card-footer d-flex justify-content-between">
+                                <p class="p6">June 4,2021</p>
+                                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div class="s5-card-1">
+                        <a href="#">
+                            <h3 class="h3">LED Solutions For Workplace Safety</h3>
+                            <div class="s5-card-footer d-flex justify-content-between">
+                                <p class="p6">June 4,2021</p>
+                                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div class="s5-card-1">
+                        <a href="#">
+                            <h3 class="h3">Types Of Led Street Lights</h3>
+                            <div class="s5-card-footer d-flex justify-content-between">
+                                <p class="p6">May 26,2023</p>
+                                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-six p-50">
+        <div class="container-fluid">
+            <div class="s5-h2 text-center">
+                <h2 class="h2">Our Clients</h2>
+            </div>
+            <div class="s6-kf-ani">
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <!-- <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div> -->
+            </div>
+            <div class="s6-kf-ani">
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+                <div class="box-size">
+                    <div class="images-1 img-size"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-seven p5-50">
+        <div class="container-fluid s7-bg">
+            <div class="s7-h1 text-center">
+                <h1 class="h1">Testimonials</h1>
+            </div>
+            <div class="s7-card-part row d-wrap">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 30px;">
+                    <h3 class="h3">What do our clients say.</h3>
+                    <p class="p7">As we all know our success has been driven by our customers' fair reviews. That's why
+                        we are
+                        constantly working to improve our services for better reviews and looking forward to more future
+                        business.</p>
+                    <a target="_blank" href="#" class="btn-view-all">Read Success Stories</a>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="s7-right-sec">
+                        <div class="s7-review-part p-2">
+                            <div class="s7-review">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                <p class="p8">Very Good product we are using from last 5 years,Also provided very good
+                                    technical support by vendor,Overall a very good experience.</p>
+                            </div>
+                        </div>
+                        <div class="s7-name-star d-flex justify-content-between">
+                            <div class="s7-name d-flex align-items-center">
+                                <div class="bp">BP</div>
+                                <span class="ps-2 fw-bold">BABA</span>
+                                <span class="ps-2 fw-bold">PATEL</span>
+                            </div>
+                            <div class="s7-star">
+                                <div class="ps-2">
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fw-bold ps-4">5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s7-right-sec">
+                        <div class="s7-review-part p-2">
+                            <div class="s7-review">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                <p class="p8">I m using the products since last 5 years. All are still same bright...
+                                    Quality is unmatchable... N above all, it's made in India... #Vocal_for_local</p>
+                            </div>
+                        </div>
+                        <div class="s7-name-star d-flex justify-content-between">
+                            <div class="s7-name d-flex align-items-center">
+                                <div class="bp">VG</div>
+                                <span class="ps-2 fw-bold">Virag</span>
+                                <span class="ps-2 fw-bold">Gandhi</span>
+                            </div>
+                            <div class="s7-star">
+                                <div class="ps-2">
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fw-bold ps-4">5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s7-right-sec">
+                        <div class="s7-review-part p-2">
+                            <div class="s7-review">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                <p class="p8">I have been using their products for quite sometime (more than 7 years). I
+                                    must appreciate, is the quality of the product. I am writing this review after I
+                                    have used the product for more than 7 years. I have installed them in every room of
+                                    my flat. Really satisfied with the performance and quality.</p>
+                            </div>
+                        </div>
+                        <div class="s7-name-star d-flex justify-content-between">
+                            <div class="s7-name d-flex align-items-center">
+                                <div class="bp">SB</div>
+                                <span class="ps-2 fw-bold">Shubhanil</span>
+                                <span class="ps-2 fw-bold">Banerjee</span>
+                            </div>
+                            <div class="s7-star">
+                                <div class="ps-2">
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fa fa-star checked" aria-hidden="true"></span>
+                                    <span class="fw-bold ps-4">5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="sec-eight bg-light p-50">
+        <div class="container-fluid">
+            <div class="s8-details d-flex d-wrap">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex" style="margin-bottom: 15px;">
+                    <div class="s8-img">
+                        <img src="img/truck.png" alt="">
+                    </div>
+                    <div class="s8-text">
+                        <h3 class="h3">Secure & Quick Shipping</h3>
+                        <p class="p8">Timely Delivery And Safe Shipping Of The Products</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex " style="margin-bottom: 15px;">
+                    <div class="s8-img">
+                        <img src="img/manager.png" alt="">
+                    </div>
+                    <div class="s8-text">
+                        <h3 class="h3">Customer-driven Outlook</h3>
+                        <p class="p8">Exceptional Customer Service & Consultative Approach</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex " style="margin-bottom: 15px;">
+                    <div class="s8-img">
+                        <img src="img/badge.png" alt="">
+                    </div>
+                    <div class="s8-text">
+                        <h3 class="h3">Stamp of Quality</h3>
+                        <p class="p8">Two-Year Warranty With No Questions Asked.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="f-logo-part d-flex justify-content-between d-wrap">
+                <div class="f-logo col-6 col-sm-6 col-md-6">
+                    <img class="img-fluid" src="img/footer-logo.png" alt="">
+                </div>
+                <div class="f-social-m col-6 col-sm-6 col-md-6">
+                    <div class="text-end">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-contain-section d-flex d-wrap">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 ">
+                    <div class="f-left-sec">
+                        <h3 class="h3">Sign up to stay up to date</h3>
+                        <p class="p9">Subscribe to our newsletter to be in the know.</p>
+
+                    </div>
+                    <div class="ftr-mail-input row">
+                        <div class="col-lg-8 col-md-8 col-sm-8
+                                    col-12">
+                            <input type="text" name="email" placeholder="Your email...">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4
+                                    col-12">
+                            <button type="submit" class="btn btn-subscribe float-end">Subscribe
+                                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i> </button>
+                        </div>
+                    </div>
+                    <div class="ftr-check-box">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> I
+                            have read and agree
+                            to the terms &amp; conditions
+                        </label>
+                    </div>
+                    <div class="py-4 bis-w">
+                        <img class="img-fluid" src="img/BIS.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 ">
+                    <div class="f-middle-sec ">
+                        <h3 class="h3">Useful Links</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Download Catalog</a></li>
+                            <li><a href="#">Warranty Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="ftr-right-sec">
+                        <h3 class="h3">Contact Us</h3>
+                        <p class="p10">+91 22-49748031/32/33</p>
+                        <p class="p10">sales@shineplusled.com</p>
+                        <p class="p10">Unit - 521, 5th floor, A-Wing, Lodha Supremus 2,
+                            <br />Road No. 22, Wagle Estate, Thane - 400604
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-block d-lg-flex justify-content-between">
+                <div class="d-flex align-items-center ms-3 footer-logo-a">
+                    <i class="fa fa-copyright mb-2" aria-hidden="true" style="margin-top: 10px;"></i>
+                    <p class="ms-2 mb-0 p11">2019 Shine Plus, All Rights Reserved</p>
+                </div>
+                <div class="d-flex align-items-center ms-2 footer-logo-a">
+                    <p class="ms-2 mb-0 p11">Proudly Created With <a class="fw-bold text-dark border-bottom-0"
+                            href="https://urteqi.com/"><strong>URTEQi</strong></a> Technologies.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

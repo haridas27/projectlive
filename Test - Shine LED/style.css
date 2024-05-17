@@ -1,0 +1,1118 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.d-wrap {
+    flex-wrap: wrap;
+}
+
+:root {
+    --orange-clr: #f5831f;
+    --black-clr: #000;
+    --bg-clr: #212529;
+    --bg-clr2: #f6f6f4;
+    --bg-clr3: #eee;
+    --bg-clr4: #512DA8;
+    --bg-clr5: burlywood;
+    --bg-clr6: orange;
+    --bg-clr7: #ffffff;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bg-clr8: #4C4940;
+    --bg-clr9: #f1f1f1;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.p-100 {
+    padding: 100px;
+}
+
+.p-50 {
+    padding: 50px;
+}
+
+.ptb-100 {
+    padding: 100px 0;
+}
+
+.plr-50 {
+    padding: 0 50px;
+}
+
+.w-101 {
+    width: 100px;
+}
+
+.h-480 {
+    height: 480px;
+}
+
+/* ----------------------------------------- header-home --------------------------------------*/
+.sec-one ul li a {
+    color: var(--black-clr);
+}
+
+.sec-one ul li a:hover,
+.sec-one ul li a:hover i {
+    color: var(--orange-clr);
+}
+
+.sec-one .dropdown-item {
+    margin-left: 0;
+}
+
+/* ----------------------------------------- sec-two-home --------------------------------------*/
+.bg-1 {
+    background-image: url(img/bg-1.jpg);
+}
+
+.bg-2 {
+    background-image: url(img/bg-2.jpg);
+}
+
+.bg-3 {
+    background-image: url(img/bg-3.jpg);
+}
+
+.bg-1,
+.bg-2,
+.bg-3 {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec-two .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(18, 15, 14);
+    opacity: .5;
+}
+
+.slider-text {
+    position: absolute;
+
+}
+
+.slider-text .p12 {
+    font-family: 'Founders Grotesk Regular';
+    font-weight: 100;
+    color: var(--bg-clr7);
+}
+
+.slider-text .h1 {
+    font-family: 'Playfair Display', serif;
+    color: var(--bg-clr7);
+    opacity: 1;
+}
+
+/* ----------------------------------------- sec-three home --------------------------------------*/
+.hcart {
+    padding: 80px 25px;
+    margin: 0 50px 50px;
+    background: linear-gradient(0.25turn, #D6D3CE, #F0EFED);
+    border-radius: 30px;
+}
+
+.s3-text-part .h1 {
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    margin: 0;
+}
+
+.s3-text-part .p {
+    font-family: 'Founders Grotesk Regular';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.down-arrow-part i {
+    border: 2px solid var(--black-clr);
+    border-radius: 50px;
+    padding: 12px 15px;
+    color: var(--black-clr);
+    font-size: 21px;
+}
+
+.hcart-2 {
+    background-image: url(img/hcard-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    filter: grayscale(55%);
+}
+
+.s3-text-part .p2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 400;
+    color: var(--bg-clr7);
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+}
+
+.hcart-3 {
+    padding: 30px;
+    margin: 0 50px 50px;
+    border-radius: 30px;
+}
+
+.s3-text-part {
+    padding: 50px 50px;
+}
+
+.s3-text-part .h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.s3-text-part .p3 {
+    font-family: 'Founders Grotesk Regular';
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    padding: 0;
+    margin: 0;
+}
+
+.s3-img-1 {
+    width: 300px;
+}
+
+/* ----------------------------------------- sec-four home --------------------------------------*/
+
+.sec-four {
+    background-color: var(--bg-clr3);
+}
+
+.scroll-part-1 {
+    height: 515px;
+    background-color: var(--bg-clr8);
+    border-radius: 30px;
+}
+
+.scroll-part-2 {
+    border-radius: 30px;
+    background-color: var(--bg-clr7);
+}
+
+.s4-text-area .h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 400;
+    color: var(--bg-clr7);
+    padding: 0;
+    margin: 0;
+}
+
+.s4-text-area .p4 {
+    font-family: 'Founders Grotesk Regular';
+    font-weight: 100;
+    color: var(--bg-clr7);
+}
+
+.s4-text-area-2 .h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    line-height: 31px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.s4-text-area-2 .h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    line-height: 43px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.s4-text-area-2 ul li {
+    font-family: 'Founders Grotesk Regular';
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.s4-text-area-2 .p5 {
+    font-family: 'Founders Grotesk Regular';
+    font-size: 18px;
+    line-height: 25px;
+    width: 87%;
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+}
+
+.scroll-2-img img {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.scroll-1 {
+    position: sticky;
+    top: 50px;
+}
+
+.scroll {
+    position: sticky;
+    top: 100px;
+    scroll-snap-align: start;
+}
+
+/* ----------------------------------------- sec-five home --------------------------------------*/
+.s5-h2 .h2 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    padding: 24px 0 48px;
+}
+
+.s5-card-1 {
+    border: 1px solid;
+    border-radius: 20px;
+    height: 250px;
+    position: relative;
+    /* margin: 5px; */
+
+}
+
+.s5-card-1 a {
+    height: 100%;
+    color: #000;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.s5-card-1 a .h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.s5-card-footer {
+    border-top: 1px solid #b8b8b8;
+    padding: 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s5-card-footer .p6 {
+    font-family: 'Founders Grotesk Regular';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* ----------------------------------------- sec-six home --------------------------------------*/
+.box-size {
+    height: 160px;
+}
+
+.img-size {
+    border: 1px solid var(--bg-clr3);
+    width: 100%;
+    height: 100%;
+}
+
+.s6-kf-ani .images-1 {
+    animation: render 15s infinite;
+}
+
+@keyframes render {
+    0% {
+        background: url('img/arwade.jpg') no-repeat center / contain;
+    }
+
+    15% {
+        background: url('img/b&b.jpg') no-repeat center / contain;
+    }
+
+    30% {
+        background: url('img/cnp.jpg') no-repeat center / contain;
+    }
+
+    45% {
+        background: url('img/gfl.jpg') no-repeat center / contain;
+    }
+
+    60% {
+        background: url('img/indina.jpg') no-repeat center / contain;
+    }
+
+    75% {
+        background: url('img/kellogs.jpg') no-repeat center / contain;
+    }
+
+    89% {
+        background: url('img/mr\ DIY.jpg') no-repeat center / contain;
+    }
+
+    100% {
+        background: url('img/cnp.jpg') no-repeat center / contain;
+    }
+}
+
+/* ----------------------------------------- sec-seven home --------------------------------------*/
+.sec-seven {
+    background-color: #f6f6f4;
+    border-radius: 20px;
+    padding: 0px 50px 50px;
+}
+
+.s7-h1 .h1 {
+    color: #000 !important;
+    font-weight: 600;
+    font-size: 48px;
+    padding: 24px 0 48px;
+}
+
+.s7-card-part .h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.s7-card-part .p7 {
+    font-family: 'Founders Grotesk Regular';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.s7-card-part a {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Founders Grotesk Regular';
+    font-weight: 100;
+    color: #000;
+    background-color: burlywood;
+    padding: 12px 12px 8px;
+    border-radius: 20px;
+    margin-top: 16px;
+}
+
+.s7-right-sec {
+    margin-bottom: 27px;
+}
+
+.s7-review-part {
+    width: 100%;
+    background-color: var(--bg-clr9);
+    box-shadow: 0px 0px 5px black;
+    border-radius: 8px;
+    margin-bottom: 27px;
+}
+
+.s7-review-part i {
+    color: #f5831f;
+    font-size: 24px;
+}
+
+.s7-review-part p {
+    font-family: 'Founders Grotesk Regular';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    padding: 20px 0 0 26px;
+}
+
+.s7-name .bp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #512DA8;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s7-star .checked {
+    color: var(--orange-clr);
+}
+
+/* ----------------------------------------- sec-seven home --------------------------------------*/
+.s8-img {
+    margin-right: 25px;
+}
+
+.s8-text .h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.s8-text .p8 {
+    font-family: 'Founders Grotesk Regular';
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------------------------------------- sec-seven home --------------------------------------*/
+
+
+footer .f-logo {
+    width: 100px;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li a {
+    font-size: 20px;
+    color: var(--black-clr);
+    margin-right: 5px;
+}
+
+.f-left-sec .h3,
+.f-middle-sec .h3,
+.ftr-right-sec .h3 {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin: 0px 0px 25px;
+}
+
+.f-left-sec .p9 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Founders Grotesk Regular';
+    font-weight: 100;
+}
+
+.footer-contain-section {
+    margin: 50px 0px 0px;
+    padding: 0px 16px;
+}
+
+.ftr-mail-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding: 20px 0px 5px;
+}
+
+.ftr-mail-input input {
+    width: 100%;
+    border: 0px;
+    padding: 5px;
+    outline: none;
+}
+
+.ftr-check-box {
+    margin: 30px 0px 0px;
+}
+
+.ftr-check-box label {
+    font-family: 'Founders Grotesk Regular';
+}
+
+.bis-w {
+    width: 100px;
+}
+
+.f-middle-sec {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer .f-middle-sec ul {
+    padding-left: 0px;
+}
+
+.footer .f-middle-sec ul li {
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid var(--black-clr);
+}
+
+.footer .f-middle-sec ul li a {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Founders Grotesk Regular';
+    font-weight: 100;
+}
+
+.ftr-right-sec .p10 {
+    margin: 10px 0px 0px;
+    line-height: 30px;
+    color: #000;
+    font-size: 19px;
+    padding: 0;
+    font-family: 'Founders Grotesk Regular';
+    font-weight: 100;
+}
+
+.footer .fa.fa-copyright {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+}
+
+.footer-logo-a a,
+.footer-logo-a .p11 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Founders Grotesk Regular';
+    font-weight: 100;
+}
+
+/* ----------------------------------------- media-query --------------------------------------*/
+@media (min-width: 375px) {
+    /* ----------------------------- sec-one -------------------------------------*/
+
+    .slider-text .h1 {
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+    .slider-text .p12 {
+        font-size: 17px;
+        padding: 0;
+        margin: 0;
+    }
+    /* ----------------------------- sec-two -------------------------------------*/
+    .wd-50 {
+        width: 100%!important;
+    }
+    .s3-text-part {
+        padding: 25px;
+    }
+    .s3-text-part .h1 {
+        font-size: 36px;
+        line-height: 45px;
+        font-weight: 700;
+        margin-bottom: 31px;
+    }
+    .hcart {
+        padding: 30px 10px;
+        margin: 0px 0px 50px;
+    }
+    .down-arrow-part {
+        margin: 47px 0 0 0;
+    }
+    .pb-85 {
+        padding-bottom: 40px;
+    }
+    .hcart-2 {
+        padding: 51px 10px;
+        margin: 0px 0px 50px;
+    }
+    .hcart-3 {
+        padding: 8px;
+        margin: 0 18px 50px;
+        border-radius: 30px;
+    }
+    .hcart-3 {
+        padding: 10px;
+        margin: 0 0px 50px;
+        border-radius: 30px;
+    }
+    /* ----------------------------- sec-three -------------------------------------*/
+    .p-50 {
+        padding: 26px;
+    }
+    .w-50 {
+        width: 90%!important;
+    }
+    .s4-text-area .p4 {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 100;
+        margin-top: 10px;
+        bottom: 50px;
+    }
+    .wd1-50{
+        width: 90%;
+    }
+    .ps2-50{
+        padding: 5px;
+    }
+    /* ----------------------------- sec-five -------------------------------------*/
+    .s5-card-1 a .h3 {
+        font-size: 23px;
+        line-height: 33px;
+        letter-spacing: 0.8px;
+    }
+    .s5-card-1 a {
+        padding: 25px;
+        width: 100%;
+    }
+    .s5-card-1{
+        margin-bottom: 25px;
+    }
+    /* ----------------------------- sec-five -------------------------------------*/
+    .s6-kf-ani {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    /* ----------------------------- sec-seven -------------------------------------*/
+    .sec-seven {
+        margin: 9px;
+    }
+    .p5-50{
+        padding: 5px;
+    }
+    /* ----------------------------- sec-eight -------------------------------------*/
+    .footer {
+        padding: 20px 15px;
+    }
+}
+
+@media (min-width: 576px) {
+    /* ----------------------------- sec-one -------------------------------------*/
+
+    .slider-text .h1 {
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+    .slider-text .p12 {
+        font-size: 17px;
+        padding: 0;
+        margin: 0;
+    }
+    /* ----------------------------- sec-two -------------------------------------*/
+    .wd-50 {
+        width: 100%!important;
+    }
+    .s3-text-part {
+        padding: 25px;
+    }
+    .s3-text-part .h1 {
+        font-size: 36px;
+        line-height: 45px;
+        font-weight: 700;
+        margin-bottom: 31px;
+    }
+    .hcart {
+        padding: 30px 10px;
+        margin: 0px 20px 50px;
+    }
+    .down-arrow-part {
+        margin: 47px 0 0 0;
+    }
+    .pb-85 {
+        padding-bottom: 40px;
+    }
+    .hcart-2 {
+        padding: 51px 10px;
+        margin: 0px 20px 50px;
+    }
+    .hcart-3 {
+        padding: 8px;
+        margin: 0 18px 50px;
+        border-radius: 30px;
+    }
+    /* ----------------------------- sec-three -------------------------------------*/
+    .p-50 {
+        padding: 21px;
+    }
+    .wd1-50{
+        width: 90%;
+    }
+    .ps2-50{
+        padding: 17px;
+    }
+    /* ----------------------------- sec-five -------------------------------------*/
+    .s5-card-1 a .h3 {
+        font-size: 23px;
+        line-height: 33px;
+        letter-spacing: 0.8px;
+    }
+    .s5-card-1 a {
+        padding: 25px;
+    }
+    .s5-card-1{
+        margin-bottom: 25px;
+    }
+    /* ----------------------------- sec-five -------------------------------------*/
+    .s6-kf-ani {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    /* ----------------------------- sec-seven -------------------------------------*/
+    .sec-seven {
+        margin: 32px;
+    }
+    .p5-50{
+        padding: 5px;
+    }
+    /* ----------------------------- sec-eight -------------------------------------*/
+    .s8-img {
+        margin-right: 15px;
+    }
+    .s8-text .h3 {
+        font-size: 25px;
+        line-height: 33px;
+        margin-bottom: 8px;
+    }
+    .s8-text .p8 {
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+    }
+    /* ----------------------------- sec-eight -------------------------------------*/
+    .footer {
+        padding: 20px 30px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    /* ----------------------------- sec-one -------------------------------------*/
+
+    .slider-text .h1 {
+        font-size: 65px;
+        font-weight: 600;
+    }
+
+    .slider-text .p12 {
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    /* ----------------------------- sec-two -------------------------------------*/
+    .wd-50 {
+        width: 75%!important;
+    }
+    .s3-text-part {
+        padding: 25px;
+    }
+    .s3-text-part .h1 {
+        font-size: 40px;
+        line-height: 47px;
+        font-weight: 700;
+        margin-bottom: 31px;
+    }
+    .hcart {
+        padding: 50px 25px;
+        margin: 0 50px 50px;
+    }
+    .down-arrow-part {
+        margin: 47px 0 0 0;
+    }
+    .pb-85 {
+        padding-bottom: 60px;
+    }
+    .hcart-2 {
+        padding: 100px 24px;
+        margin: 0 50px 50px;
+    }
+    .hcart-3 {
+        padding: 20px;
+        margin: 0 50px 50px;
+        border-radius: 30px;
+    }
+    /* ----------------------------- sec-three -------------------------------------*/
+    /* .p-50 {
+        padding: 16px;
+    } */
+    .wd1-50 {
+        width: 65%;
+    }
+    .ps2-50{
+        padding: 50px;
+    }
+    /* ----------------------------- sec-five -------------------------------------*/
+
+    .s5-card-1 a .h3 {
+        font-size: 23px;
+        line-height: 33px;
+        letter-spacing: 0.8px;
+    }
+    .s5-card-1 a {
+        padding: 25px;
+    }
+    .s5-card-1{
+        margin-bottom: 25px;
+    }
+    /* ----------------------------- sec-six -------------------------------------*/
+    .s6-kf-ani {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    /* ----------------------------- sec-seven -------------------------------------*/
+    .p5-50{
+        padding: 30px;
+    }
+
+    .sec-seven {
+        margin: 30px;
+    }
+    /* ----------------------------- sec-eight -------------------------------------*/
+    .s8-img {
+        margin-right: 15px;
+    }
+    .s8-text .h3 {
+        font-size: 25px;
+        line-height: 33px;
+        margin-bottom: 8px;
+    }
+    .s8-text .p8 {
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+    }
+    /* ----------------------------- sec-eight -------------------------------------*/
+    .footer {
+        padding: 20px 50px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* ----------------------------- sec-one -------------------------------------*/
+    .sec-one ul li a {
+        font-size: 16px;
+        margin-left: 8px;
+    }
+
+    .slider-text .h1 {
+        font-size: 80px;
+        font-weight: 600;
+    }
+
+    .slider-text .p12 {
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
+    }
+    /* ----------------------------- sec-two -------------------------------------*/
+    .wd-50 {
+        width: 65%!important;
+    }
+    .s3-text-part {
+        padding: 25px;
+    }
+    .s3-text-part .h1 {
+        font-size: 40px;
+        line-height: 47px;
+        font-weight: 700;
+        margin-bottom: 31px;
+    }
+    .hcart {
+        padding: 80px 25px;
+        margin: 0 50px 50px;
+    }
+    .down-arrow-part {
+        margin: 70px 0 0 0;
+    }
+    .pb-85 {
+        padding-bottom: 80px;
+    }
+    .hcart-2 {
+        padding: 100px 24px;
+        margin: 0 50px 50px;
+    }
+    .hcart-3 {
+        padding: 30px;
+        margin: 0 50px 50px;
+        border-radius: 30px;
+    }
+    /* ----------------------------- sec-three -------------------------------------*/
+    .wd1-50 {
+        width: 50%;
+    }
+    /* ----------------------------- sec-five -------------------------------------*/
+    .s5-card-1 a .h3 {
+        font-size: 19px;
+        line-height: 30px;
+        letter-spacing: 0.8px;
+    }
+    .s5-card-1 a {
+        padding: 14px;
+    }
+    .s5-card-1{
+        margin-bottom: 0px;
+    }
+    /* ----------------------------- sec-five -------------------------------------*/
+    .s6-kf-ani {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    /* ----------------------------- sec-eight -------------------------------------*/
+    .s8-img {
+        margin-right: 15px;
+    }
+    .s8-text .h3 {
+        font-size: 25px;
+        line-height: 33px;
+        margin-bottom: 8px;
+    }
+    .s8-text .p8 {
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* ----------------------------- sec-one -------------------------------------*/
+    .sec-one ul li a {
+        font-size: 16px;
+        margin-left: 18px;
+    }
+    
+    .slider-text .h1 {
+        font-size: 102px;
+        font-weight: 600;
+    }
+    
+    .slider-text .p12 {
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    /* ----------------------------- sec-two -------------------------------------*/
+    .wd-50 {
+        width: 65%!important;
+    }
+    .s3-text-part {
+        padding: 50px;
+    }
+    .s3-text-part .h1 {
+        font-size: 40px;
+        line-height: 47px;
+        font-weight: 700;
+        margin-bottom: 31px;
+    }
+    .down-arrow-part {
+        margin: 70px 0 0 0;
+    }
+    .pb-85 {
+        padding-bottom: 85px;
+    }
+    .hcart-2 {
+        padding: 100px 50px;
+        margin: 0 50px 50px;
+    }
+    .hcart-3 {
+        padding: 30px;
+        margin: 0 50px 50px;
+        border-radius: 30px;
+    }
+    /* ----------------------------- sec-five -------------------------------------*/
+    .s5-card-1 a .h3 {
+        font-size: 23px;
+        line-height: 33px;
+        letter-spacing: 0.8px;
+    }
+    .s5-card-1 a {
+        padding: 25px;
+    }
+    .s5-card-1{
+        margin-bottom: 0px;
+    }
+    /* ----------------------------- sec-six -------------------------------------*/
+    .s6-kf-ani {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    /* ----------------------------- sec-eight -------------------------------------*/
+    .s8-img {
+        margin-right: 15px;
+    }
+    .s8-text .h3 {
+        font-size: 27px;
+        line-height: 33px;
+        margin-bottom: 8px;
+    }
+    .s8-text .p8 {
+        font-size: 20px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+    }
+    
+}
